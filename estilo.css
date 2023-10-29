@@ -1,0 +1,91 @@
+body{
+    background-color: gray;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+
+main .calculadora{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px white;
+    
+    
+    
+}
+
+main .botao{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 3px;
+   
+}
+
+.botao:hover{
+    background-color: black;
+    color: white;
+}
+
+main p{
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    height: 30px;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.igual{
+    width: 240px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.igual:hover{
+    background-color: rgb(44, 44, 121);
+    color: white;
+}
+
+main .botaoZera, .botaoApagar{
+    width: 109px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 3px;
+    
+}
+
+.botaoApagar:hover{
+    background-color: rgb(180, 8, 8);
+    color: white;
+
+}
+
+.botaoZera:hover{
+    background-color: rgb(44, 44, 121);
+    color: white;
+
+}
+
+header .logo{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 20px;
+}
